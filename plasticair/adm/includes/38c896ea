@@ -1,0 +1,222 @@
+body
+{
+	margin:0px;
+}
+.tabLink {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;	
+	color:#187CBE;
+	text-decoration:none;
+	padding:8 20 8 20px;
+}
+.tahoma_11_grey
+{
+	font-family:Tahoma;
+	font-size:11px;
+	color:#666666;
+}
+.arial12_black {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333333;
+}
+.arial15_Grey {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#666666;
+}
+.arial12_lighBlue {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#C5E5F8;
+}
+.arial12_lightGrey {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#CCCCCC;
+}
+.arial12_Grey {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+}
+.navLink {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#666666;
+	text-decoration:none;
+}
+.pageTabs {
+	background-image:url(/adm/img/tabs_bottom_bg.jpg); 
+	background-position:bottom; 
+	background-repeat:repeat-x;
+}
+.text {
+	height:26px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333333;
+}
+.navLinkActive {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#666666;
+	text-decoration:none;
+	font-weight:bold;
+}
+.arial18_Grey {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#666666;
+}
+.arial20_Grey {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#666666;
+}
+.menuItem {
+	background:url(/adm/img/menu_item.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	height:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#666666;
+	vertical-align:middle;
+	padding-left:30px;
+	cursor:pointer;
+}
+.activeItemSubcat {
+	font-weight:bold;
+	background-image:url(/adm/img/menu_item_active.png);
+}
+.activeItem {
+	font-weight:bold;
+	background-image:url(/adm/img/menu_item_active_right.png);
+}
+.content {
+	padding:20 48 20 48px;
+	margin:2 0 2 0px;
+}
+.arial12_blue {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#3B638B;
+}
+.arial12_blue_bold {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#3B638B;
+	font-weight:bold;
+}
+.arial13_blue {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#3B638B;
+}
+.arial10_grey {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#7D7D7D;
+	
+}
+.link {
+	text-decoration:underline;
+}
+.optionsTable {
+	border:solid 1px #C2DAEB;
+	padding:7 3 7 3px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#3B638B;
+	margin:3 0 3 0px;
+}
+.inputField {
+	height:22px;
+	border:solid 1px #7F9DB9;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999999;
+	margin:4px;
+	padding:3px;
+	vertical-align:middle;
+}
+.tdpadding {padding:12px;}
+#listingTable {
+	margin:0 0 20 0px;
+}
+.pagingTable {
+	background-color:#D6E7F3;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#3B638B;
+	padding:4 7 4 9px;
+	height:30px;
+	margin-bottom:5px;
+}
+.listingTitles {
+	height:22px;
+	background-image:url(/adm/img/listingTitles_bg.jpg);
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+}
+.listingHeaderLinks {
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;	
+}
+.orangeCheckbox {
+	background-color:#FFCC99;
+	border-left:solid 1px #F2F2F2;
+	border-right:solid 1px #F2F2F2;
+	width:19px;
+}
+.listingBottom {
+	background-color:#D6E7F3;
+	margin-top:5px;
+	padding:4 7 4 7px;
+}
+.contentCell {
+	padding:5 20 5 20px;
+	border-left:#D6E7F3 solid 1px;  
+	border-right:#D6E7F3 solid 1px;
+	border-bottom:#D6E7F3 solid 1px;    
+	background-image:url(/adm/img/top_content_bg.jpg); 
+	background-repeat:repeat-x;
+}
+.innerMenu {
+	background-image:url(/adm/img/menu_inner_bg.jpg);
+	background-repeat:repeat-y;
+	background-position:center;
+}
+.err {
+	padding-left:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	font-weight:bold;
+	line-height:normal;
+	height:26px;
+	color:#FF0000;
+}
+.err2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:17px;
+	text-decoration:none;
+	font-weight:bold;
+	color:#FF0000;
+}
+.message {
+	padding-left:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	font-weight:bold;
+	line-height:normal;
+	height:26px;
+	color:#00FF00;
+}

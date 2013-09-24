@@ -1,0 +1,36 @@
+CREATE TABLE `products_option1_main` (
+  `products_option1_mainID` int(11) NOT NULL auto_increment,
+  `productsID` int(10) unsigned NOT NULL,
+  `dateCreated` datetime NOT NULL,
+  `po_title` varchar(255) NOT NULL,
+  `description` text NOT NULL,
+  `position` smallint(6) NOT NULL,
+  `edited` datetime NOT NULL,
+  `field_qty` smallint(6) NOT NULL,
+  PRIMARY KEY  (`products_option1_mainID`),
+  KEY `equipmentID` (`productsID`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+
+CREATE TABLE `products_option1` (
+  `products_option1ID` int(11) NOT NULL auto_increment,
+  `products_option1_mainID` int(11) NOT NULL,
+  `productsID` int(10) unsigned NOT NULL,
+  `dateCreated` datetime NOT NULL,
+  `po_title` varchar(255) NOT NULL,
+  `description` text NOT NULL,
+  `position` smallint(6) NOT NULL,
+  `edited` datetime NOT NULL,
+  `field_1` varchar(111) character set utf8 collate utf8_unicode_ci NOT NULL,
+  `field_2` varchar(111) character set utf8 collate utf8_unicode_ci NOT NULL,
+  `field_3` varchar(111) character set utf8 collate utf8_unicode_ci NOT NULL,
+  `field_4` varchar(111) character set utf8 collate utf8_unicode_ci NOT NULL,
+  `field_5` varchar(111) character set utf8 collate utf8_unicode_ci NOT NULL,
+  `field_6` varchar(111) character set utf8 collate utf8_unicode_ci NOT NULL,
+  `field_7` varchar(111) character set utf8 collate utf8_unicode_ci NOT NULL,
+  `field_8` varchar(111) character set utf8 collate utf8_unicode_ci NOT NULL,
+  `field_9` varchar(111) character set utf8 collate utf8_unicode_ci NOT NULL,
+  `field_qty` smallint(6) NOT NULL,
+  PRIMARY KEY  (`products_option1ID`),
+  KEY `equipmentID` (`productsID`),
+  KEY `products_option1_mainID` (`products_option1_mainID`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8;

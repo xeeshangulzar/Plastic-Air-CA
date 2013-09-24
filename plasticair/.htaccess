@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteRule ^news/([0-9]+)/([A-Za-z0-9_\-\|]+) /news.php?newsID=$1
+RewriteRule ^product/([0-9]+)/([A-Za-z0-9_\-\|]+) /product-detail.php?productsID=$1
+RewriteRule ^products/([0-9]+)/([A-Za-z0-9_\-\|]+) /products.php?product_categoryID=$1
+RewriteRule ^industry/([0-9]+)/([A-Za-z0-9_\-\|]+) /industry.php?industryID=$1
+RewriteRule ^about-us/([0-9]+)/([A-Za-z0-9_\-\|]+) /about-us.php?contentID=$1
+ 
+ErrorDocument 404 /

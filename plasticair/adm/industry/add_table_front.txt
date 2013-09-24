@@ -1,0 +1,21 @@
+$bg_table="ffffff";
+$sSQL="SELECT * FROM products_option1_main WHERE productsID='".$productsID."' ORDER BY position";
+$result2=mysql_query($sSQL) or die ("MySQL err: ".mysql_error()."<br />".$sSQL);
+if(mysql_num_rows($result2)>0){ ?><? 
+	while($row2=mysql_fetch_assoc($result2)){
+		?><div><b><?=stripslashes($row2['po_title'])?></b></div><?
+		?><div><?=stripslashes($row2['description'])?></div>
+		<table width="392" border="0" cellspacing="1" cellpadding="2" bgcolor="#CCCCCC" style="margin:10px 0;"><?	
+		$sSQL="SELECT * FROM products_option1 WHERE productsID='".$productsID."' AND products_option1_mainID='".$row2['products_option1_mainID']."' ORDER BY position";
+		$result=mysql_query($sSQL) or die ("MySQL err: ".mysql_error()."<br />".$sSQL);
+		$nn=0; $bg=""; $n_qty=$row2['field_qty'];
+		while($row=mysql_fetch_assoc($result)){$nn++; 
+			if($nn==1){ $bg="f0f0ff"; }
+			?><tr bgcolor="#<?=$bg?>"><td><?=$row['po_title']?></td><?
+		for($ii=1;$ii<=$n_qty;$ii++){ ?><td><?=$row['field_'.$ii]?></td><? }
+		
+		?></tr><? 
+		$bg="ffffff"; }
+		?></table><?
+	}
+ }

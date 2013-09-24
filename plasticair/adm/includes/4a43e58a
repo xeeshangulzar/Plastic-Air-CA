@@ -1,0 +1,33 @@
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">  
+<?php /*?><tr><td class="menuItem<?=(($currentFolder!="category")?"":" activeItem")?>" onClick="showHideCategories('category','/adm/category/index.php')" id="tdcategory"><a href="/adm/category/index.php" class="<?=(($currentFolder!="category")?"navLink":"navLinkActive")?>">&nbsp;Categories</a></td></tr><?php */?>
+
+<?php /*?><tr><td class="menuItem<?=(($currentFolder!="products")?"":" activeItem")?>" onClick="showHideCategories('products','/adm/products/index.php')" id="tdproducts"><a href="/adm/products/index.php" class="<?=(($currentFolder!="products")?"navLink":"navLinkActive")?>">&nbsp;Products</a></td></tr><?php */?>
+
+<?php /*?><tr><td class="menuItem<?=(($currentFolder!="members")?"":" activeItem")?>" onClick="showHideCategories('members','/adm/members/index.php')" id="tdmembers"><a href="/adm/members/index.php" class="<?=(($currentFolder!="members")?"navLink":"navLinkActive")?>">&nbsp;Members</a></td></tr><?php */?>
+
+<tr><td class="menuItem<?=(($currentFolder!="news")?"":" activeItem")?>" onClick="showHideCategories('news','/adm/news/index.php')" id="tdnews"><a href="/adm/news/index.php" class="<?=(($currentFolder!="news")?"navLink":"navLinkActive")?>">&nbsp;News</a></td></tr>
+
+<tr><td class="menuItem<?=(($currentFolder!="faqs")?"":" activeItem")?>" onClick="showHideCategories('faqs','/adm/faqs/index.php')" id="tdfaqs"><a href="/adm/faqs/index.php" class="<?=(($currentFolder!="faqs")?"navLink":"navLinkActive")?>">&nbsp;FAQs</a></td></tr>
+
+<?php /*?><tr><td class="menuItem<?=(($currentFolder!="blog")?"":" activeItem")?>" onClick="showHideCategories('blog','/adm/blog/index.php')" id="tdblog"><a href="/adm/blog/index.php" class="<?=(($currentFolder!="blog")?"navLink":"navLinkActive")?>">&nbsp;Forum</a></td></tr><?php */?>
+
+<?php /*?><tr><td class="menuItem<?=(($currentFolder!="customers")?"":" activeItem")?>" onClick="showHideCategories('blog','/adm/customers/newsLetter.php')" id="tdcustomers"><a href="/adm/customers/newsLetter.php" class="<?=(($currentFolder!="customers")?"navLink":"navLinkActive")?>">&nbsp;Newsletters</a></td></tr><?php */?>
+
+<tr><td class="menuItem<?=(($currentFolder!="settings")?"":" activeItem")?>" onClick="showHideCategories('settings','')" id="tdsettings"><span class="navLink">&nbsp;Settings</span></td>
+</tr>
+<tr>
+<td style="padding-left:12px;"><div id="divsettings" style="display:<?=(($currentFolder!="settings")?"none":"block")?>; background-image:url(/adm/img/menu_inner_bg.jpg); background-repeat:repeat-y;">
+<table width="100%" border="0" cellspacing="0" cellpadding="3" align="center">
+<tr>
+    <td width="3px" style="padding-left:10px;"><img src="/adm/img/menu_arrowBlackRight.png" width="3" height="5"></td>
+  <td><a href="/adm/settings/adminPassword/" class="navLink">Admin Settings</a></td>
+</tr>
+<tr>
+    <td width="3px" style="padding-left:10px;"><img src="/adm/img/menu_arrowBlackRight.png" width="3" height="5"></td>
+  <td><a href="/adm/settings/content" class="navLink">Content Pages</a></td>
+</tr>
+</table>
+</div></td>
+</tr>
+</table>
